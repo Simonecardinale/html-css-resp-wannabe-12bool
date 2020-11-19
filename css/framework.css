@@ -7,11 +7,14 @@
 
 .container {
     max-width: 1200px;
-    /* cancellare */
-    height: 900px;
-    /* /cancellare */
     border: 2px solid red;
     margin: 200px auto;
+}
+
+.container::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 .row::after {
