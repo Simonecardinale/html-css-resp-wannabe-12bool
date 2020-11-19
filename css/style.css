@@ -1,0 +1,16 @@
+[class*="col-"] {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.col-lg-12 > h2 {
+    margin-bottom: 0;
+}
+
+img {
+    height: 200px;
+}
