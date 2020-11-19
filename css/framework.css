@@ -7,7 +7,7 @@
 
 .container {
     max-width: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 200px auto;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .row {
-    height: 200px;
+    /* height: 200px; */
 }
 
 [class*="col-"] {

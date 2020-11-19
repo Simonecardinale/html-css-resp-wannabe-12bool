@@ -1,6 +1,6 @@
 [class*="col-"] {
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h2 {
@@ -13,6 +13,11 @@ h2 {
 
 img {
     height: 200px;
+}
+
+.container > .row:nth-child(1n+2) {
+    background-color: #f9f9f9;
+    margin-bottom: 100px;
 }
 
 .row3-image {
